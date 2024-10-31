@@ -2,9 +2,9 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
+
         //Tabita wie gehts wie stehts.
+        //Mir geht gut dir?
         System.out.printf("Hello and welcome Tabita!");
         System.out.println("How are you? ");
 
@@ -13,10 +13,15 @@ public class Main {
         int zahl1= 5;
         int zahl2= 4;
         int addition;
+        double zahl3 = 8.8;
+        double zahl4 = 4.5;
+        double substraction;
         for (int i = 1; i <= 5; i++) {
-           //operation
+           //addition und subtraction
             addition = zahl1 + zahl2;
+            substraction = zahl3 - zahl4;
             System.out.println("summe = " + addition);
+            System.out.println("substraction = " + substraction);
 
         }
     }
